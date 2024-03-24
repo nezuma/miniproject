@@ -1,0 +1,71 @@
+* {
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+    border: 0;   
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+}
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+html {
+	scroll-behavior: smooth;
+}
+.header-name {
+    text-align: center;
+}
+.cal-block {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: center;
+    margin: auto;
+}
+.cal-output-box {
+    height: 5vh;
+    width: 15vw;
+    /* border: 1px solid #000; */
+    /* border-radius: 5px; */
+    margin: auto;
+    margin-top: 2px;
+}
+.cal-output {
+    height: 5vh;
+    width: 15vw;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2px;
+}
+.cal-btns {
+    display: grid;
+    margin-top: 80px;
+}
+.btn1 {
+    border: 1px solid #000;
+    height: 3vh;
+    width: 2vw;
+    margin: 5px;
+}
+.btn1:hover {
+    cursor: pointer;
+}
+.btn2 {
+    border: 1px solid #000;
+    height: 3vh;
+    width: 7.6vw;
+    margin: 5px;
+}
+.btn2:hover {
+    cursor: pointer;
+}
+.btn-line {
+    display: flex;
+    margin: 0 auto;
+}

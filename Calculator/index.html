@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Генератор чисел</title>
+  
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="header-name">
+                <a href="../index.html"><-BACK</a>
+            </div>
+        </header>
+        <section>
+            <div class="cal-block">
+                <div class="cal-output-box">
+                    <span id="output"></span>
+                    <input type="text" name="" id="num1" class="cal-output" placeholder="первое число">
+                    <span id="znak-output"></span>
+                    <input type="text" name="" id="num2" class="cal-output" placeholder="второе число">
+                </div>
+                <div class="cal-btns">
+                    <div class="btn-line">
+                        <button class="btn1" onclick="op='+'">+</button>
+                        <button class="btn1" onclick="op='-'">-</button>
+                        <button class="btn1" onclick="op='/'">/</button>
+                    </div>
+                    <div class="btn-line">
+                        <button class="btn1" onclick="op='*'">*</button>
+                        <button class="btn1" onclick="calc()">=</button>
+                        <button class="btn1">NAN</button>
+                    </div>
+                    <div class="btn-line">
+                        <button class="btn1">NAN</button>
+                        <button class="btn1">NAN</button>
+                        <button class="btn1">NAN</button>
+                    </div>
+                    <div class="btn-line">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

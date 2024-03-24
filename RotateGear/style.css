@@ -1,0 +1,13 @@
+.container {
+    height: 999999999999999999999vh;
+    font-size: 150px;
+    text-align: center;
+}
+#star {
+    position: fixed;
+    margin: 40vh auto;
+    transition: linear 0.3s; /* если захочешь сделать как "поломку", ебани ease-in-out */
+}
+a {
+    position: fixed;
+}
